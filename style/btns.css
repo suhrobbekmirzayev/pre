@@ -1,0 +1,43 @@
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+button{
+    padding: 12px;
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+
+.btn_flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 15px;
+}
+a{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.blue{
+    background-color: blue;
+}
+.blue a{
+ color: white;
+}
+
+
+button:hover{
+    background-color: blue;
+   a{
+    color: white;
+   }
+}
+
